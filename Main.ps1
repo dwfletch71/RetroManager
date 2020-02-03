@@ -25,7 +25,7 @@ $folderForm.BackColor = $styleFormBgCol
 $folderForm.Opacity = 0.99
 $folderForm.Height = 600
 $folderForm.Width = 1200
-$folderForm.Icon = "D:\Documents\PShell\cm\Graphics\iconfinder_Soccer_2138356.ico"
+$folderForm.Icon = ".\Graphics\iconfinder_Soccer_2138356.ico"
 #endregion
 
 #region PANEL - MENU
@@ -41,7 +41,7 @@ $panMain = New-Object system.Windows.Forms.Panel
 $panMain.height = 545
 $panMain.width = 1090
 $panMain.BackColor = "white"
-$panMainImage = [system.drawing.image]::FromFile("D:\Documents\PShell\cm\Graphics\default.jpg")
+$panMainImage = [system.drawing.image]::FromFile(".\Graphics\default.jpg")
 $panMain.BackgroundImage = $panMainImage
 $panMain.Location = New-Object System.Drawing.Point(90,5)
 #endregion
