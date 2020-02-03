@@ -1,3 +1,0 @@
-This is my first text file
-more test
-for the git repos
